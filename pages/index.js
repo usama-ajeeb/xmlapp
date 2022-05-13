@@ -4,6 +4,9 @@ import React from 'react'
 function index() {
   return (
     <div className="container mx-auto mt-10 max-w-7xl justify-center border-2 pt-28">
+      <h1 className="pb-6 text-center text-4xl">
+        SAMPLE Collection: HazardNote
+      </h1>
       <div className="flex flex-wrap gap-y-4 gap-x-10 p-4">
         <Link href="/year/year14">
           <div className=" cursor-pointer shadow-xl">
