@@ -11,7 +11,7 @@ export const data = [
   {
     slug: 'southern-australia-seasonal-bushfire-outlook-2014-15',
     title: 'Southern Australia Seasonal Bushfire Outlook 2014-15',
-    date: '2/9/2014',
+    date: '2-9-2014',
     body: 'The Southern Australia Seasonal Bushfire Outlook is used by fire authorities to make strategic decisions on resource planning and prescribed fire management for the upcoming fire season.',
     download:
       'https://test-bnhcrc.pantheonsite.io/sites/default/files/managed/downloads/bnhcrc_southern_australia_bushfire_outlook_2014-15.pdf',
@@ -50,7 +50,7 @@ export const data = [
   {
     slug: 'ensuring-volunteering-is-sustainable',
     title: 'Ensuring volunteering is sustainable',
-    date: '10/7/2015',
+    date: '10-7-2015',
     body: 'Hazard Note 006 an overview of the Sustainable volunteering cluster of Bushfire and Natural Hazards CRC research projects.',
     download:
       'https://test-bnhcrc.pantheonsite.io/sites/default/files/managed/downloads/hazard_note_006_ensuring_volunteering_is_sustainable_final2.pdf',
@@ -86,7 +86,7 @@ export const data = [
   {
     slug: 'southern-australia-seasonal-bushfire-outlook-2015-16',
     title: 'Southern Australia Seasonal Bushfire Outlook 2015-16',
-    date: '1/9/2015',
+    date: '1-9-2015',
     body: 'The Southern Australia Seasonal Bushfire Outlook is out for the upcoming fire season - 2015-16.',
     download:
       'https://test-bnhcrc.pantheonsite.io/sites/default/files/managed/downloads/hazardnote10_seasonaloutlook1516.pdf',
@@ -105,7 +105,7 @@ export const data = [
     slug: 'southern-australia-seasonal-bushfire-outlook-2015-16-november-update',
     title:
       'Southern Australia Seasonal Bushfire Outlook 2015-16: November update',
-    date: '9/11/2015',
+    date: '9-11-2015',
     body: 'An updated Southern Australia Seasonal Bushfire Outlook has been released, covering South Australia and Tasmania.',
     download:
       'https://test-bnhcrc.pantheonsite.io/sites/default/files/managed/downloads/november_update_southern_australia_seasonal_bushfire_outlook.pdf',
@@ -114,7 +114,7 @@ export const data = [
   {
     slug: 'raising-the-bar-on-risk-reduction-policy-and-planning',
     title: 'Raising the bar on risk reduction policy and planning',
-    date: '11/1/2016',
+    date: '11-1-2016',
     body: 'Hazard Note 13 is an overview of the Governance and institutional knowledge cluster of research projects, which are tackling some of the most challenging policy, governance and communication issues confronting emergency management.',
     download:
       'https://test-bnhcrc.pantheonsite.io/sites/default/files/managed/downloads/hazard_note_13_raising_the_bar_on_risk_reduction_policy_and_planning.pdf',
@@ -123,7 +123,7 @@ export const data = [
   {
     slug: 'research-for-better-land-management',
     title: 'Research for better land management',
-    date: '2/2/2016',
+    date: '2-2-2016',
     body: 'Hazard Note 14 is an overview of the Prescribed burning and catchment management cluster of research projects.',
     download:
       'https://test-bnhcrc.pantheonsite.io/sites/default/files/managed/downloads/hazard_note_14_research_for_better_land_management2.pdf',
@@ -132,7 +132,7 @@ export const data = [
   {
     slug: 'sampson-flat-community-bushfire-experiences',
     title: 'Sampson Flat community bushfire experiences',
-    date: '6/4/2016',
+    date: '6-4-2016',
     body: 'Hazard Note 15 summaries results from research commissioned by the CFS after the January 2015 Sampson Flat bushfire.',
     download:
       'https://test-bnhcrc.pantheonsite.io/sites/default/files/managed/downloads/hazard_note_15_-_sampson_flat.pdf',
@@ -141,7 +141,7 @@ export const data = [
   {
     slug: 'oceans-on-the-rise',
     title: 'Oceans on the rise',
-    date: '9/5/2016',
+    date: '9-5-2016',
     body: 'Hazard Note 16 explains how our research will strengthen Australia’s capability to make informed decisions for an improved resilience of coastal communities and infrastructure.',
     download:
       'https://test-bnhcrc.pantheonsite.io/sites/default/files/managed/downloads/hazard_note_16_oceans_on_the_rise_final.pdf',
@@ -159,7 +159,7 @@ export const data = [
   {
     slug: 'northern-australia-seasonal-bushfire-outlook-2016',
     title: 'Northern Australia Seasonal Bushfire Outlook 2016',
-    date: '6/7/2016',
+    date: '6-7-2016',
     body: 'This Hazard Note details the Northern Australia Seasonal Bushfire Outlook for 2016.',
     download:
       'https://test-bnhcrc.pantheonsite.io/sites/default/files/managed/downloads/hazard_note_18_-_nth_aust_bushfire_outlook_2016.pdf',
@@ -1034,7 +1034,7 @@ export const data = [
   {
     slug: 'the-benefits-of-strengthening-buildings-against-earthquakes',
     title: 'The benefits of strengthening buildings against earthquakes',
-    date: '10/2/2022',
+    date: '10-2-2022',
     body: 'Hazard Note 112 presents evisjustify the cost of strengthening existing buildings to withstand earthquake damage.',
     download:
       'https://test-bnhcrc.pantheonsite.io/sites/default/files/managed/downloads/hazard_note_112_benefits-of-earthquake-strengthening.pdf',

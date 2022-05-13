@@ -9,9 +9,16 @@ import { data } from '../../data/data'
 // const csv = require('csvtojson')
 
 function PageTemplate({ data }) {
-  console.log(data)
+  console.log(data.date)
   const [year, setYear] = useState('')
   useEffect(() => {
+    const cond = data.date
+      .split('-')
+      .slice(2, 3)
+      .join('')
+      .split('')
+      .slice(2, 4)
+      .join('')
     const y = data.date
       .split('-')
       .slice(2, 3)
@@ -19,7 +26,12 @@ function PageTemplate({ data }) {
       .split('')
       .slice(2, 4)
       .join('')
-    setYear(y)
+
+    if (y) {
+      setYear(y)
+    } else {
+      setYear(cond)
+    }
   }, [])
   const saveFile = () => {
     saveAs(
@@ -27,12 +39,15 @@ function PageTemplate({ data }) {
       `${data.slug}.pdf`
     )
   }
+
+  console.log(`/pdf/${data.download.split('/').slice(-1).join('')}`)
+  console.log(data.download)
   // `pdf/${iterator.download.split('/').slice(-1).join('')}`
   // C:\Users\usama\Desktop\xmlapp\public\pdf
   function TestImage({ src, width, quality }) {
     return (src = ` ${data.img}`)
   }
-
+  console.log(year)
   return (
     <div className=" container mx-auto flex flex-col justify-center gap-y-8 p-40">
       {/* <Link href={`/year/year${year}`}>
