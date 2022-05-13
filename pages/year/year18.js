@@ -3,7 +3,15 @@ import Link from 'next/link'
 import { data } from '../../data/data'
 function year18({ result }) {
   return (
-    <div className="container mx-auto mt-20 max-w-5xl shadow-lg">
+    <div className="container mx-auto mt-20 flex max-w-5xl flex-col shadow-lg">
+      <Link href="/">
+        <a
+          className=" mb-6 w-44  rounded-xl bg-green-500 text-center text-xl text-gray-100"
+          href=""
+        >
+          Back to Index Page
+        </a>
+      </Link>
       {result.map((i) => (
         <Link href={i.slug}>
           <div className=" flex cursor-pointer flex-col items-center border-b py-6 px-4">
