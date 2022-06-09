@@ -14,7 +14,7 @@ function year14({ result }) {
         </a>
       </Link>
       {result.map((i) => (
-        <Link href={i.slug}>
+        <Link href={i.slug} key={i.slug}>
           <div className=" flex cursor-pointer flex-col items-center border-b py-6 px-4">
             <h1 className="text-center text-3xl">{i.title}</h1>
             <p>Date: {i.date}</p>
